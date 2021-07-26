@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animation counter</title>
+    </head>
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        .container{
+            background-color: #6f4e37;
+        }
+        p{
+           text-align: center; 
+        }
+    </style>
+    <body onload="load()">
+        <p>
+        <div class="d-flex justify-content-center fs-1 fw-bold ">Animation Counter</div>
+        </p>
+        <p>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                      <p id='0101' class="fs-2 text-light">2</p>
+                      <p class="text-light">Total Links Created</p>
+                  </div>
+                  <div class="col-sm">
+                    <p id='0102' class="fs-2 text-light">2>/p>
+                    <p class="text-light">Premium learning resources links</p>
+                  </div>
+                  <div class="col-sm">
+                    <p class="fs-2 text-light"><span id='0103'>0</p>
+                    <p class="text-light align-content-center">Meeting Join Links</p>
+                  </div>
+                  <div class="col-sm">
+                    <p class="fs-2 text-light"><span id='0104'>16</p>
+                    <p class="text-light align-content-center">Link Clicks</p>
+                  </div>
+                </div>
+              </div>
+        </p>
+    </body>
+    <script src="statsanim.js"></script>
+</html>
