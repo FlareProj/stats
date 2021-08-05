@@ -46,9 +46,9 @@ let text4 = document.getElementById('0104');
 
 const load = () =>{
 
-    animate(text1, 0, 3, 1000);
-    animate(text2, 0, 2, 1000);
-    animate(text3, 0, 1, 1000);
-    animate(text4, 0, 27, 1000);
+    animate(text1, 0, 9, 1000);
+    animate(text2, 0, 4, 1000);
+    animate(text3, 0, 5, 1000);
+    animate(text4, 0, 30, 1000);
 
 }
